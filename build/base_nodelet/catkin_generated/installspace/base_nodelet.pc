@@ -1,0 +1,8 @@
+prefix=/home/zhongli/go/install
+
+Name: base_nodelet
+Description: Description of base_nodelet
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp nodelet std_msgs

@@ -1,0 +1,37 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/zhongli/go/devel/include/**",
+        "/home/zhongli/ego-planner/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/zhongli/go/src/base_nodelet/include/**",
+        "/home/zhongli/ego-planner/src/planner/bspline_opt/include/**",
+        "/home/zhongli/go/src/car/include/**",
+        "/home/zhongli/ego-planner/src/planner/plan_manage/include/**",
+        "/home/zhongli/ego-planner/src/uav_simulator/mockamap/include/**",
+        "/home/zhongli/ego-planner/src/uav_simulator/Utils/multi_map_server/include/**",
+        "/home/zhongli/ego-planner/src/planner/path_searching/include/**",
+        "/home/zhongli/ego-planner/src/planner/plan_env/include/**",
+        "/home/zhongli/ego-planner/src/uav_simulator/Utils/pose_utils/include/**",
+        "/home/zhongli/ego-planner/src/uav_simulator/Utils/quadrotor_msgs/include/**",
+        "/home/zhongli/ego-planner/src/uav_simulator/so3_control/include/**",
+        "/home/zhongli/ego-planner/src/uav_simulator/so3_quadrotor_simulator/include/**",
+        "/home/zhongli/ego-planner/src/planner/traj_utils/include/**",
+        "/home/zhongli/go/src/try/include/**",
+        "/home/zhongli/ego-planner/src/uav_simulator/Utils/uav_utils/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

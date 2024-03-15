@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -std=c++11 -shared -Wl,-soname,libbase_nodelet.so -o /home/zhongli/go/devel/lib/libbase_nodelet.so CMakeFiles/base_nodelet.dir/src/nodeletclass.cpp.o 

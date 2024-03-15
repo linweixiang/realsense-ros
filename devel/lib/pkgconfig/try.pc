@@ -1,0 +1,8 @@
+prefix=/home/zhongli/go/devel
+
+Name: try
+Description: Description of try
+Version: 0.0.0
+Cflags: -I/home/zhongli/go/src/try/include
+Libs: -L${prefix}/lib -ltry
+Requires: roscpp rospy std_msgs

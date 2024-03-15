@@ -1,0 +1,2 @@
+base_nodelet:car:try
+-DCATKIN_DEVEL_PREFIX=/home/zhongli/go/devel -DCMAKE_INSTALL_PREFIX=/home/zhongli/go/install -G Unix Makefiles

@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/home/zhongli/ego-planner/devel/include/**",
+                "/opt/ros/melodic/include/**",
+                "/home/zhongli/go/src/base_nodelet/include/**",
+                "/home/zhongli/go/src/try/include/**",
+                "/usr/include/**",
+                "/opt/ros/melodic/include"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}

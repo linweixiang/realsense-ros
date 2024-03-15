@@ -1,0 +1,12 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/zhongli/ego-planner/devel/lib/python2.7/dist-packages",
+        "/opt/ros/melodic/lib/python2.7/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/zhongli/ego-planner/devel/lib/python2.7/dist-packages",
+        "/opt/ros/melodic/lib/python2.7/dist-packages"
+    ],
+    "cmake.sourceDirectory": "/home/zhongli/go/src/base_nodelet",
+    "C_Cpp.errorSquiggles": "disabled"
+}

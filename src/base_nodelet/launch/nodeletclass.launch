@@ -1,0 +1,17 @@
+<launch>
+    <node pkg="nodelet" type="nodelet" name="nodelet_manager" args="manager" output="screen">
+    </node>
+
+    <node pkg="nodelet" type="nodelet" name="base_nodelet" args="load base_nodelet/TopicNodelet nodelet_manager">
+        <param name="tf" value="/tf"/>
+        <param name="carTx" value="/carTx"/>
+        <param name="mavros/local" value="mavros/local"/>
+        <!-- Add other parameters if needed -->
+
+        <remap from="output_topic" to="output_topic"/>
+
+
+    </node>
+</launch>
+
+
